@@ -138,3 +138,10 @@ The original `highway-env` project and its contributors retain ownership of the 
 Original project:
 
 https://github.com/eleurent/highway-env
+
+
+
+## Contributors
+- [Hualong Yu](https://github.com/yuhualong508)
+- [Tiannan Zhang](https://github.com/ChristinaPuth)
+- [Shifan Liu](https://github.com/shifanliu)
