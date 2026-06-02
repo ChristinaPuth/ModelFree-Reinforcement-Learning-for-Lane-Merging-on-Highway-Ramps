@@ -1,8 +1,8 @@
 # Highway Merging Reinforcement Learning System 
 
-This project's goal is to construct a reinforcement learning system for **highway merging**, using a custom-built environment, and compare the performance of three popular RL algorithms: **A2C**, **DQN**, and **PPO**.
+This project's goal is to construct a reinforcement learning system for **highway merging**, using a customized highway merging environment adapted from highway-env, and compare the performance of three popular RL algorithms: **A2C**, **DQN**, and **PPO**.
 
-Built on top of [highway-env](https://github.com/eleurent/highway-env), this project implements a new merging environment and supports model training, hyperparameter tuning, evaluation, and visualization. It is suitable for academic research and algorithm analysis in autonomous driving scenarios.
+Built on Built upon and modified from the open-source [highway-env](https://github.com/eleurent/highway-env) framework, this project implements a new merging environment and supports model training, hyperparameter tuning, evaluation, and visualization. It is suitable for academic research and algorithm analysis in autonomous driving scenarios.
 
 ---
 
@@ -118,3 +118,23 @@ python3 scripts/main.py
 ```
 runtime: 1e6 step  should run about 8hours totally(3 method) 
 #### Important: Before executing the scripts, ensure all file paths and configuration parameters are correctly set based on your local environment structure and experiment setup.
+
+
+
+## Acknowledgement and Attribution
+
+This project builds upon the open-source [highway-env](https://github.com/eleurent/highway-env) framework developed by Eleurent et al.
+
+The `HighwayEnv/` directory included in this repository is adapted and modified from the original `highway-env` implementation. We extended the framework to support a custom highway ramp merging scenario (`merge-v1`), including modifications to the road layout, vehicle behavior, merging constraints, reward design, and reinforcement learning experiments.
+
+The original `highway-env` project and its contributors retain ownership of the original source code. This repository does not claim authorship of the underlying framework. Our contributions focus on:
+
+- Designing and implementing the custom `merge-v1` highway merging environment
+- Modifying traffic and vehicle interaction behaviors
+- Integrating and evaluating DQN, A2C, and PPO algorithms
+- Hyperparameter optimization using Optuna
+- Training, evaluation, and visualization of model performance
+
+Original project:
+
+https://github.com/eleurent/highway-env
