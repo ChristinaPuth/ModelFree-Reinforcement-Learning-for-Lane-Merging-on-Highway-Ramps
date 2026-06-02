@@ -9,7 +9,7 @@ Built on top of [highway-env](https://github.com/eleurent/highway-env), this pro
 ##  Project Structure
 
 ```text
-EEC_256_FINAL/
+Model-Free Reinforcement Learning for Lane Merging on Highway Ramps/
 │
 ├── a2c_optuna/               # A2C tuning results (Optuna CSVs and models)
 ├── dqn_optuna/               # DQN tuning results
