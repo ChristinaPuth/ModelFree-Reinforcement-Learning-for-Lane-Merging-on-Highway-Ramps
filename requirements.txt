@@ -1,0 +1,9 @@
+stable-baselines3==1.8.0
+gymnasium==0.29.1
+highway-env==1.6
+optuna
+matplotlib
+pandas
+tbparse
+tqdm
+torch
